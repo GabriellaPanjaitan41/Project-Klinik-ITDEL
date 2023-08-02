@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical Info | Delnic</title>
+    <!-- ======= Styles ====== -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/info.css">
+</head>
+
+<body>
+    <!-- =============== Navigation ================ -->
+    <div class="c-container">
+        <div class="n-navigation">
+            <div class="bungkus">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <span class="del">
+                                <!-- <ion-icon name="logo-apple"></ion-icon> -->
+                                <img src="assets/img/klinik del.png">
+                            </span>
+                            <!-- <span class="title">Brand Name</span> -->
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="index.html">
+                            <span class="icon">
+                                <ion-icon name="home-outline"></ion-icon>
+                            </span>
+                            <span class="title">Dashboard</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="Patient_Info.html">
+                            <span class="icon">
+                                <ion-icon name="people-outline"></ion-icon>
+                            </span>
+                            <span class="title">Patient Info</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="medical_Info.html">
+                            <span class="icon">
+                                <!-- <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAQxJREFUSEvVVYENAiEQ62+im+gk6iTqJLqJbqJuYmqouccDjjefKAn5hEB7LeV+wMxjmBkfP02wBbAAcAVwT/PDkCkKCHxyrD0COOdEvQQEJgEHwR4ANkkJ10hysOQ9BBZ8nawR1iqpomVLqyJKUAMXifbskrrXeoQgAk4sWrPPbWoRWHAmhdbw641uBRZcgIwkLchJeAeXtGlUdEmBB14iseChFMnLWheREqZGlTO2VDcauQIeuAX7E0lYvd7EB7iXotIrrXG6letAriBijyWrgn+roAnuEejS+J1siz3oxbRlU6jy0h1onSS2S2p91Gciaau1CkaQVnHy5erHEsF972n1oi4wb/P/EzwBKsw6Gc8PCHYAAAAASUVORK5CYII="/> -->
+                                <span class="material-symbols-outlined">vaccines</span>
+                            </span>
+                            <span class="title">Medical Info</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="Employee_Info.html">
+                            <span class="icon">
+                                <span class="material-symbols-outlined">groups</span>
+                            </span>
+                            <span class="title">Employee Info</span>
+                        </a>
+                    </li>
+
+                    <!--   -->
+                </ul>
+            </div>
+        </div>
+
+        <!-- ========================= Main ==================== -->
+        <div class="main">
+            <div class="topbar">
+                <div class="toggle">
+                    <ion-icon name="menu-outline"></ion-icon>
+                </div>
+
+                <!-- <div class="search">
+                    <label>
+                        <input type="text" placeholder="Search here">
+                        <button type="button"><ion-icon name="search-outline"></ion-icon></button>
+                    </label>
+                </div> -->
+
+                <div class="user">
+                    <img src="assets/img/avatar.jpg" alt="">
+                </div>
+            </div>
+
+
+            <!-- ================ Order Details List ================= -->
+            <div class="details">
+                <div class="recentOrders">
+                    <div class="cardHeader">
+                        <h2>Data Obat</h2>
+                        <!-- <a href="#" class="btn">View All</a> -->
+                    </div>
+
+                    <table id="myTable">
+                        <thead>
+                            <tr>
+                                <td>ID OBAT</td>
+                                <td>NAMA</td>
+                                <td>STOK</td>
+                                <td>HARGA</td>
+
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td>2345B6</td>
+                                <td>Acarbose</td>
+                                <td>20</td>
+                                <td>20.000</td>
+                            </tr>
+                            <tr>
+                                <td>12S20031</td>
+                                <td>Acarbose</td>
+                                <td>20</td>
+                                <td>20.000</td>
+                            </tr>
+                            <tr>
+                                <td>12S20031</td>
+                                <td>Acarbose</td>
+                                <td>20</td>
+                                <td>20.000</td>
+                            </tr>
+
+                            <tr>
+                                <td>12S20031</td>
+                                <td>Acarbose</td>
+                                <td>20</td>
+                                <td>20.000</td>
+                            </tr>
+                            <tr>
+                                <td>12S20031</td>
+                                <td>Acarbose</td>
+                                <td>20</td>
+                                <td>20.000</td>
+                            </tr>
+                            <tr>
+                                <td>12S20031</td>
+                                <td>Acarbose</td>
+                                <td>20</td>
+                                <td>20.000</td>
+                            </tr>
+                            <tr>
+                                <td>12S20031</td>
+                                <td>Acarbose</td>
+                                <td>20</td>
+                                <td>20.000</td>
+                            </tr>
+                            <tr>
+                                <td>12S20031</td>
+                                <td>Acarbose</td>
+                                <td>20</td>
+                                <td>20.000</td>
+                            </tr>
+                            <tr>
+                                <td>12S20031</td>
+                                <td>Acarbose</td>
+                                <td>20</td>
+                                <td>20.000</td>
+                            </tr>
+                            <tr>
+                                <td>12S20031</td>
+                                <td>Acarbose</td>
+                                <td>20</td>
+                                <td>20.000</td>
+                            </tr>
+                            <tr>
+                                <td>12S20031</td>
+                                <td>Acarbose</td>
+                                <td>20</td>
+                                <td>20.000</td>
+                            </tr>
+
+                            <tr>
+                                <td>12S20031</td>
+                                <td>Acarbose</td>
+                                <td>20</td>
+                                <td>20.000</td>
+                            </tr>
+                            <tr>
+                                <td>12S20031</td>
+                                <td>Acarbose</td>
+                                <td>20</td>
+                                <td>20.000</td>
+                            </tr>
+
+                            <tr>
+                                <td>12S20031</td>
+                                <td>Acarbose</td>
+                                <td>20</td>
+                                <td>20.000</td>
+                            </tr>
+
+                            <tr>
+                                <td>12S20031</td>
+                                <td>Acarbose</td>
+                                <td>20</td>
+                                <td>20.000</td>
+                            </tr>
+
+                            <tr>
+                                <td>12S20031</td>
+                                <td>Acarbose</td>
+                                <td>20</td>
+                                <td>20.000</td>
+                            </tr>
+
+                            <tr>
+                                <td>12S20031</td>
+                                <td>Acarbose</td>
+                                <td>20</td>
+                                <td>20.000</td>
+                            </tr>
+
+                            <tr>
+                                <td>12S20031</td>
+                                <td>Acarbose</td>
+                                <td>20</td>
+                                <td>20.000</td>
+                            </tr>
+
+                            <tr>
+                                <td>12S20031</td>
+                                <td>Acarbose</td>
+                                <td>20</td>
+                                <td>20.000</td>
+                            </tr>
+
+                            <tr>
+                                <td>12S20031</td>
+                                <td>Acarbose</td>
+                                <td>20</td>
+                                <td>20.000</td>
+                            </tr>
+
+
+                        </tbody>
+                    </table>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <!-- =========== Scripts =========  -->
+    <script src="assets/js/main.js"></script>
+    <script href=""></script>
+
+    <!-- ====== ionicons ======= -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>

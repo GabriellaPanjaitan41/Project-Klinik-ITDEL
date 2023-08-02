@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,400&display=swap');
+
+*{
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    background:  #E5E9F4;
+    /* border: 50; */
+
+}
+
+.form .form-login .del {
+    width: 50%;
+    height: 70%;
+    place-items: center;
+    object-fit: contain;
+    top: 70%;
+  left: 100%;
+  /* -ms-transform: translate(-70%, -70%); */
+  transform: translate(50%, 0%);
+}
+
+.container{
+    background: white ;
+    position: relative;
+    width: 721px;
+    height: 632px;  
+    max-width: 800px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+    border-radius: 20px;
+}
+
+.container .form{
+    padding: 70px;
+    transform: translateY(-5%);
+}
+
+.container .form .title{
+    position: relative;
+    font-size: 27px;
+    font-weight: 600;
+}
+
+.form .input-field{
+    position: relative;
+    height: 50px;
+    width: 100%;
+    margin-top: 10px;
+
+}
+
+.input-field input{
+    /* height: 100%; */
+    /* width: 100%; */
+    position: absolute;
+    padding: 0 50px;
+    /* font-size: 16px; */
+    /* border-radius: 10px ; */
+    
+    /* display: flex; */
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px;
+
+    width: 575px;
+    height: 53px;
+
+    border: 1px solid #5C73DB;
+    border-radius: 12px;
+}
+
+
+.input-field i{
+    padding: 20px;
+    position: absolute;
+    top: 48%;
+    transform: translateY(-50%);
+    color: #999;
+    font-size: 23px;
+}
+
+/* .input-field input:is(:focus, :valid){
+    border-bottom: red;
+} */
+
+.input-field i.icon{
+    left: 0;
+}
+
+.input-field i.showHidePw{
+    right: 0;
+}
+   
+
+/* control letak diatas login */
+.form .checkbox-text{
+    margin-top: 20px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    margin-right: 5px ;
+    margin-left: 5px ;
+    
+}
+
+.checkbox-text .content input{
+    display: flex;
+    align-items: center;
+}
+
+.checkbox-content input{
+    margin: 0 8px 0 0px;
+    accent-color: #006DBD ;  
+    color:black;
+}
+
+.form a{
+    text-decoration: none  ;
+    color:#006DBD;
+    font-size: 12px;
+    
+}
+.form a:hover{
+    text-decoration: underline  ;
+
+}
+
+.form .checkbox-content{
+    font-size: 12px;
+    color: black;
+
+}
+
+
+.form .button{
+    margin-top: 40px;
+}
+
+.form .button input{
+    border: none;
+    color : white;
+    background-color: #006DBD;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-radius: 12px;
+    cursor: pointer;
+
+}
+
+.form .titlee  {
+    position: relative;
+    font-size: 15px;
+    font-weight: 10;
+    margin-top: 20px;
+}   
